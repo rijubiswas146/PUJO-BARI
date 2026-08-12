@@ -1,0 +1,6 @@
+{
+  "name": "পুজো বাড়ি",
+  "description": "পুজো বাড়ি — Online Music Player",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
