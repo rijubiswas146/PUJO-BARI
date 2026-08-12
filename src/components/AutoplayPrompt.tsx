@@ -22,7 +22,7 @@ export const AutoplayPrompt: React.FC<AutoplayPromptProps> = ({ onTapToPlay, sta
             TAP PLAY TO START PUJO BARI
           </h3>
           <p className="text-xs text-amber-200/80 mt-1.5 leading-relaxed font-body">
-            Your roadtrip soundtrack is ready on {stationName || 'National Highway 44'}. Tap below to tune in.
+            Your pujo soundtrack is ready on {stationName || 'National Highway 44'}. Tap below to tune in.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ export const AutoplayPrompt: React.FC<AutoplayPromptProps> = ({ onTapToPlay, sta
           className="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-stone-950 font-extrabold text-sm tracking-wider uppercase transition-all shadow-xl hover:scale-105 active:scale-95 cursor-pointer flex items-center justify-center gap-2"
         >
           <Play className="w-5 h-5 fill-current" />
-          <span>Start Journey</span>
+          <span>Start Song</span>
         </button>
 
         <p className="text-[10px] text-amber-300/50 font-mono">
