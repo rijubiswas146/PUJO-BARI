@@ -74,9 +74,9 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
             </div>
             <div>
               <h3 className="text-lg font-bold font-brand text-amber-100 tracking-wide">
-                ONROAD FM STATIONS
+                PUJO-BARI
               </h3>
-              <p className="text-xs text-amber-300/80">Curated Indian Roadtrip Sounds</p>
+              <p className="text-xs text-amber-300/80">USE YOUR YOUTUBE PLAY LIST ID</p>
             </div>
           </div>
 
@@ -131,7 +131,7 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
         {/* TAB 1: STATIONS PRESETS */}
         {activeTab === 'stations' && (
           <div className="flex-1 overflow-y-auto space-y-3 pr-1 custom-scrollbar">
-            <p className="text-xs text-amber-200/60 mb-2 font-medium">Select a travel vibe for your highway journey:</p>
+            <p className="text-xs text-amber-200/60 mb-2 font-medium">Select a playlist use your id :</p>
             {STATION_PRESETS.map((station) => {
               const isSelected = currentStationId === station.id;
               return (
@@ -235,7 +235,7 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
                 Play Your Own YouTube Playlist
               </h4>
               <p className="text-xs text-amber-200/70 leading-relaxed">
-                Enter any public YouTube Playlist ID or paste the full YouTube playlist URL below to play your own custom roadtrip soundtrack on ONROAD FM.
+                Enter any public YouTube Playlist ID or paste the full YouTube playlist URL below to play your own custom songs.
               </p>
 
               <form onSubmit={handleCustomSubmit} className="space-y-3 pt-2">
@@ -264,7 +264,7 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
 
             <div className="p-3 rounded-xl bg-amber-950/40 border border-amber-500/20 text-xs text-amber-200/80 space-y-1">
               <p className="font-semibold text-amber-300">💡 Tip:</p>
-              <p>You can share YouTube playlists with friends or save custom travel lists for future road trips.</p>
+              <p>You can share YouTube playlists with friends or save custom playlist.</p>
             </div>
           </div>
         )}
